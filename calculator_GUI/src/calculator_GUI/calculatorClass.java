@@ -74,6 +74,7 @@ public class calculatorClass extends JFrame {
 		JButton subtractButton = new JButton("Subtract");
 		subtractButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				// convert to double
 			    double num1 = Double.parseDouble(num1textField.getText());
            	    double num2 = Double.parseDouble(num2textField.getText());
            	 
@@ -111,6 +112,7 @@ public class calculatorClass extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 			    double num1 = Double.parseDouble(num1textField.getText());
            	    double num2 = Double.parseDouble(num2textField.getText());
+           	    // checks whether dividing by 0 and blockss the user for doing so.
            	    
            	    if(num2 != 0)
            	    {
