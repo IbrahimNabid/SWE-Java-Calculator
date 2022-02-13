@@ -1,2 +1,4 @@
 # SWE Simple Java Calculator 
-![CalculatorLab2gif](https://user-images.githubusercontent.com/79735610/153478725-48f9b05b-95cc-43fa-aa63-c29572ddf75d.gif)
+[X] Create a simple calculator using Java Swing that does basic operations
+![calculator-gui-recording](https://user-images.githubusercontent.com/79735610/153737982-3fcd921c-f485-4fc1-a679-4b591d62712f.gif)
+
