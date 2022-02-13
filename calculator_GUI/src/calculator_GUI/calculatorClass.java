@@ -123,7 +123,7 @@ public class calculatorClass extends JFrame {
            	    }
            	    else
            	    {
-           	    	JOptionPane.showMessageDialog(null, "ERROR! Cannot delete by 0! Try again.");
+           	    	JOptionPane.showMessageDialog(null, "ERROR! Cannot divide by 0! Try again.");
            	    }
            	    
 			}
